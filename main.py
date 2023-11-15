@@ -23,6 +23,8 @@ class Suprematism(QMainWindow):
     def dr(self):
         self.figure = 1
         self.siz = randint(20, 101)
+        self.xpos = randint(200, 400)
+        self.ypos = randint(200, 400)
         self.color = QColor(randint(0, 256), randint(0, 256), randint(0, 256))
         self.do_paint = True
         self.update()
